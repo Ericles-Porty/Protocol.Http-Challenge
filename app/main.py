@@ -106,3 +106,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+# to run the server, use the following command:
+# python main.py --directory /files/
+
+# to test the server, use the following command:
+# curl -X GET http://localhost:4221/files/test.txt
+# curl -X POST -d "This is a test file" http://localhost:4221/files/test.txt
+# curl -X GET http://localhost:4221/files/test.txt
+# curl -X GET http://localhost:4221/user-agent
+# curl -X GET http://localhost:4221/echo/hello
